@@ -1,0 +1,22 @@
+.cen {
+    text-align: center
+}
+
+img {
+    width: auto;
+    height: 200px;
+}
+
+.co {
+    background-color: black;
+}
+
+.mr {
+    margin-top: 100px;
+    color: white;
+}
+
+.jumbotron.text-center.co {
+    margin-bottom: none;
+    border-radius: none;
+}
