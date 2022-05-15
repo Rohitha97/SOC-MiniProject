@@ -1,6 +1,6 @@
 <?php
 
-$csv='D:\\Campus\\assignment\\russia_losses_equipment.csv';
+$csv='task\\russia_losses_equipment.csv';
 
 $fh= fopen($csv,'r');
 

@@ -11,7 +11,7 @@ $conn=mysqli_connect($servername,$username,$password,"$dbname");
     }
 
  // Insert csv data into database 
-$csv='D:\\Campus\\assignment\\russia_losses_equipment.csv';
+$csv='task\\russia_losses_equipment.csv';
 
 $fh= fopen($csv,'r');
 

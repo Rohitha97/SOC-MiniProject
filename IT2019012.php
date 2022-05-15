@@ -27,7 +27,7 @@ class API {
           'navalship'      => $row['navalship'],
         );
         // array_push($row_arr);
-        $fp = fopen('IT2019012.json', 'w');
+        $fp = fopen('task/IT2019012.json', 'w');
     }
     fwrite($fp, json_encode($row_arr));
     return json_encode($row_arr);
